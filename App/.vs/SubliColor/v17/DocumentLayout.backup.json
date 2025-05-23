@@ -1,0 +1,346 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|c:\\users\\pzelaya\\desktop\\subicolor\\app\\sublicolor.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|solutionrelative:sublicolor.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|c:\\users\\pzelaya\\desktop\\subicolor\\app\\sublicolor.server\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|solutionrelative:sublicolor.server\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|c:\\users\\pzelaya\\desktop\\subicolor\\app\\sublicolor.server\\services\\interfaces\\correoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|solutionrelative:sublicolor.server\\services\\interfaces\\correoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|c:\\users\\pzelaya\\desktop\\subicolor\\app\\sublicolor.server\\repositories\\menurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|solutionrelative:sublicolor.server\\repositories\\menurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|c:\\users\\pzelaya\\desktop\\subicolor\\app\\sublicolor.server\\services\\interfaces\\imenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|solutionrelative:sublicolor.server\\services\\interfaces\\imenuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|c:\\users\\pzelaya\\desktop\\subicolor\\app\\sublicolor.server\\services\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|solutionrelative:sublicolor.server\\services\\menuservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|c:\\users\\pzelaya\\desktop\\subicolor\\app\\sublicolor.server\\repositories\\interfaces\\imenurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|solutionrelative:sublicolor.server\\repositories\\interfaces\\imenurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|c:\\users\\pzelaya\\desktop\\subicolor\\app\\sublicolor.server\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|solutionrelative:sublicolor.server\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|c:\\users\\pzelaya\\desktop\\subicolor\\app\\sublicolor.server\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|solutionrelative:sublicolor.server\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|c:\\users\\pzelaya\\desktop\\subicolor\\app\\sublicolor.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|solutionrelative:sublicolor.server\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|c:\\users\\pzelaya\\desktop\\subicolor\\app\\sublicolor.server\\models\\menumodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|solutionrelative:sublicolor.server\\models\\menumodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|c:\\users\\pzelaya\\desktop\\subicolor\\app\\sublicolor.server\\repositories\\auditoriahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|solutionrelative:sublicolor.server\\repositories\\auditoriahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|c:\\users\\pzelaya\\desktop\\subicolor\\app\\sublicolor.server\\services\\interfaces\\icorreoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|solutionrelative:sublicolor.server\\services\\interfaces\\icorreoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|c:\\users\\pzelaya\\desktop\\subicolor\\app\\sublicolor.server\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|solutionrelative:sublicolor.server\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|c:\\users\\pzelaya\\desktop\\subicolor\\app\\sublicolor.server\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|solutionrelative:sublicolor.server\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|c:\\users\\pzelaya\\desktop\\subicolor\\app\\sublicolor.server\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|solutionrelative:sublicolor.server\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|c:\\users\\pzelaya\\desktop\\subicolor\\app\\sublicolor.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|solutionrelative:sublicolor.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|c:\\users\\pzelaya\\desktop\\subicolor\\app\\sublicolor.server\\repositories\\interfaces\\iauditoriahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7AA240B5-B71E-46C0-B8E8-710BC632511F}|SubliColor.Server\\SubliColor.Server.csproj|solutionrelative:sublicolor.server\\repositories\\interfaces\\iauditoriahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 16,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IMenuRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Repositories\\Interfaces\\IMenuRepository.cs",
+              "RelativeDocumentMoniker": "SubliColor.Server\\Repositories\\Interfaces\\IMenuRepository.cs",
+              "ToolTip": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Repositories\\Interfaces\\IMenuRepository.cs",
+              "RelativeToolTip": "SubliColor.Server\\Repositories\\Interfaces\\IMenuRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T15:15:27.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "SubliColor.Server\\Controllers\\MenuController.cs",
+              "ToolTip": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "SubliColor.Server\\Controllers\\MenuController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T15:21:38.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MenuService.cs",
+              "DocumentMoniker": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Services\\MenuService.cs",
+              "RelativeDocumentMoniker": "SubliColor.Server\\Services\\MenuService.cs",
+              "ToolTip": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Services\\MenuService.cs",
+              "RelativeToolTip": "SubliColor.Server\\Services\\MenuService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T15:19:48.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IMenuService.cs",
+              "DocumentMoniker": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Services\\Interfaces\\IMenuService.cs",
+              "RelativeDocumentMoniker": "SubliColor.Server\\Services\\Interfaces\\IMenuService.cs",
+              "ToolTip": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Services\\Interfaces\\IMenuService.cs",
+              "RelativeToolTip": "SubliColor.Server\\Services\\Interfaces\\IMenuService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T15:19:23.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Repositories\\MenuRepository.cs",
+              "RelativeDocumentMoniker": "SubliColor.Server\\Repositories\\MenuRepository.cs",
+              "ToolTip": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Repositories\\MenuRepository.cs",
+              "RelativeToolTip": "SubliColor.Server\\Repositories\\MenuRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwBAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T15:16:22.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MenuModel.cs",
+              "DocumentMoniker": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Models\\MenuModel.cs",
+              "RelativeDocumentMoniker": "SubliColor.Server\\Models\\MenuModel.cs",
+              "ToolTip": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Models\\MenuModel.cs",
+              "RelativeToolTip": "SubliColor.Server\\Models\\MenuModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T15:14:43.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CorreoService.cs",
+              "DocumentMoniker": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Services\\Interfaces\\CorreoService.cs",
+              "RelativeDocumentMoniker": "SubliColor.Server\\Services\\Interfaces\\CorreoService.cs",
+              "ToolTip": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Services\\Interfaces\\CorreoService.cs",
+              "RelativeToolTip": "SubliColor.Server\\Services\\Interfaces\\CorreoService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T21:21:37.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ICorreoService.cs",
+              "DocumentMoniker": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Services\\Interfaces\\ICorreoService.cs",
+              "RelativeDocumentMoniker": "SubliColor.Server\\Services\\Interfaces\\ICorreoService.cs",
+              "ToolTip": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Services\\Interfaces\\ICorreoService.cs",
+              "RelativeToolTip": "SubliColor.Server\\Services\\Interfaces\\ICorreoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T21:20:14.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuditoriaHelper.cs",
+              "DocumentMoniker": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Repositories\\AuditoriaHelper.cs",
+              "RelativeDocumentMoniker": "SubliColor.Server\\Repositories\\AuditoriaHelper.cs",
+              "ToolTip": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Repositories\\AuditoriaHelper.cs",
+              "RelativeToolTip": "SubliColor.Server\\Repositories\\AuditoriaHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T17:18:23.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IAuditoriaHelper.cs",
+              "DocumentMoniker": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Repositories\\Interfaces\\IAuditoriaHelper.cs",
+              "RelativeDocumentMoniker": "SubliColor.Server\\Repositories\\Interfaces\\IAuditoriaHelper.cs",
+              "ToolTip": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Repositories\\Interfaces\\IAuditoriaHelper.cs",
+              "RelativeToolTip": "SubliColor.Server\\Repositories\\Interfaces\\IAuditoriaHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T17:17:58.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "SubliColor.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\appsettings.json",
+              "RelativeToolTip": "SubliColor.Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-20T16:29:09.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Program.cs",
+              "RelativeDocumentMoniker": "SubliColor.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Program.cs",
+              "RelativeToolTip": "SubliColor.Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T16:25:37.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "SubliColor.Server\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "SubliColor.Server\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T16:24:14.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "SubliColor.Server\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Services\\AuthService.cs",
+              "RelativeToolTip": "SubliColor.Server\\Services\\AuthService.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAASwF4AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T16:22:40.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "SubliColor.Server\\Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "SubliColor.Server\\Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T16:20:59.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "SubliColor.Server\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "SubliColor.Server\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAIAwwIkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T16:19:27.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "SubliColor.Server\\Repositories\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "SubliColor.Server\\Repositories\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T16:18:46.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "SubliColor.Server\\Models\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\pzelaya\\Desktop\\SubiColor\\App\\SubliColor.Server\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "SubliColor.Server\\Models\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T16:18:03.975Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
