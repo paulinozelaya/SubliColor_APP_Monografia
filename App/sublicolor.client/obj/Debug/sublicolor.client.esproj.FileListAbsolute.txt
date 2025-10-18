@@ -1,0 +1,2 @@
+D:\SubliColor\App\sublicolor.client\obj\Debug\sublicolor.client.esproj.CoreCompileInputs.cache
+C:\Users\pauli\Downloads\Llevarme\SubliColor\App\sublicolor.client\obj\Debug\sublicolor.client.esproj.CoreCompileInputs.cache

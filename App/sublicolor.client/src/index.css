@@ -1,0 +1,137 @@
+/* === PRIME REACT THEMES FIRST === */
+@import 'primereact/resources/themes/lara-light-blue/theme.css';
+@import 'primereact/resources/primereact.min.css';
+@import 'primeicons/primeicons.css';
+@import 'primeflex/primeflex.css';
+
+/* === THEN TAILWIND === */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   OVERRIDES – PRIME REACT + TAILWIND GLASS MODE
+   ============================================================ */
+
+/* Input fields (InputText + Password) */
+.p-inputtext,
+.p-password-input {
+  width: 100% !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+  /* color: #f8fafc !important; */
+  border-radius: 0.5rem !important;
+  font-size: 0.95rem !important;
+  padding: 0.65rem 0.75rem !important;
+  transition: all 0.25s ease-in-out !important;
+  box-shadow: none !important;
+}
+
+/* Hover & focus states */
+.p-inputtext:hover,
+.p-password-input:hover {
+  background-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+.p-inputtext:focus,
+.p-password-input:focus {
+  border-color: #60a5fa !important; /* blue-400 */
+  background-color: rgba(255, 255, 255, 0.18) !important;
+  box-shadow: 0 0 6px rgba(96, 165, 250, 0.4) !important;
+  transform: scale(1.01);
+}
+
+/* Placeholder */
+.p-inputtext::placeholder,
+.p-password-input::placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* Icons inside password / input */
+.p-input-icon-left > i,
+.p-password-icon {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+/* Password wrapper fix */
+.p-password {
+  width: 100% !important;
+}
+
+/* FloatLabel */
+.p-float-label label {
+  color: rgba(255, 255, 255, 0.65) !important;
+  font-weight: 400;
+  transition: all 0.2s ease;
+  background: transparent;
+}
+
+.p-float-label input:focus ~ label,
+.p-float-label input.p-filled ~ label,
+.p-float-label .p-password-input:focus ~ label,
+.p-float-label .p-password-input.p-filled ~ label {
+  color: #93c5fd !important; /* light blue */
+  transform: translateY(-0.8rem);
+  font-size: 0.75rem;
+}
+
+/* Buttons (for glass consistency) */
+.p-button {
+  border: none !important;
+  border-radius: 0.5rem !important;
+  font-weight: 600 !important;
+  padding: 0.75rem !important;
+  background: linear-gradient(90deg, #3b82f6, #2563eb) !important;
+  color: white !important;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4) !important;
+  transition: all 0.25s ease-in-out;
+}
+
+.p-button:hover {
+  background: linear-gradient(90deg, #60a5fa, #3b82f6) !important;
+  box-shadow: 0 4px 16px rgba(96, 165, 250, 0.6) !important;
+  transform: translateY(-1px);
+}
+
+/* Forgot password link (brighter, readable) */
+a {
+  color: #bfdbfe; /* text-blue-200 */
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #e0f2fe; /* text-blue-100 */
+}
+
+/* Card container */
+.p-card {
+  backdrop-filter: blur(20px) !important;
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3) !important;
+  border-radius: 1rem !important;
+}
+
+.p-card a,
+a {
+  color: #dbeafe !important; /* text-blue-200 */
+  font-weight: 400 !important;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.p-card a:hover,
+a:hover {
+  color: #f0f9ff !important; /* text-blue-50 */
+}
+
+/* Texto de pie de página (© 2025 SubliColor ...) */
+.p-card + p,
+footer,
+p.text-xs {
+  color: rgba(255, 255, 255, 0.55) !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.2px;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+}

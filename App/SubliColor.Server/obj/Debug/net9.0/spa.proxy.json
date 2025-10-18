@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:50215",
+"RedirectUrl": "",
+"LaunchCommand": "npm run dev",
+"WorkingDirectory": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\..\\sublicolor.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}
