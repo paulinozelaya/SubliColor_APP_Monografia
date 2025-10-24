@@ -493,3 +493,14 @@ VALUES
 UPDATE [Administracion].[Menu]
 SET EstaActivo = 0
 WHERE CodigoInterno = 'Menu_GestionConfiguracion'
+
+
+INSERT INTO [Administracion].[Categoria]
+VALUES
+('TIPO_CONTACTO', 'Tipo de Contacto', 'Tipo de Contacto', 1, 1, GETDATE(), NULL, NULL),
+('TIPO_DIRECCION', 'Tipo de Direccion', 'Tipo de Direccion', 1, 1, GETDATE(), NULL, NULL),
+('TIPO_IDENTIFICACION', 'Tipo de Identificacion', 'Tipo de Identificacion', 1, 1, GETDATE(), NULL, NULL)
+
+INSERT INTO [Administracion].[Valor]
+VALUES
+(1, 'celular', 'Celular', 'Tipo contacto para celular', 1, 1, GETDATE(), NULL, NULL)

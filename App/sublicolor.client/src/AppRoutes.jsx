@@ -29,13 +29,13 @@ export default function AppRoutes() {
             <Route index element={<Navigate to="dashboard" replace />} />
 
             <Route path="dashboard" element={<Dashboard />} />
+            <Route path="Menu_GestionPersona" element={<GestionPersonas />} />
             <Route path="Menu_GestionUsuario" element={<GestionUsuarios />} />
             <Route path="Menu_GestionCliente" element={<Clientes />} />
             {/* <Route path="MENU_ROLES" element={<Roles />} /> */}
             <Route path="Menu_GestionProducto" element={<GestionProductos />} />
             <Route path="Menu_GestionVenta" element={<GestionVentas />} />
             <Route path="Menu_GestionReporte" element={<Reportes />} />
-            <Route path="Menu_GestionPersona" element={<GestionPersonas />} />
           </Route>
         </Route>
 
