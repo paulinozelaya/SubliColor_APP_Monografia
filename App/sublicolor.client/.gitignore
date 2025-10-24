@@ -1,24 +1,107 @@
+#---------------------------------------------------------------------------------
+# Reglas generales para la mayoría de los proyectos
+#---------------------------------------------------------------------------------
+
 # Logs
-logs
+# Ignorar todos los archivos de logs generados durante la ejecución.
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Archivos de metadatos del sistema operativo
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
+Thumbs.db
+
+# Archivos temporales y de swap de editores
+*~
 *.sw?
+
+#---------------------------------------------------------------------------------
+# Reglas para Proyectos .NET / Visual Studio
+#---------------------------------------------------------------------------------
+
+# Cache y archivos de configuración del entorno (.vs y .vscode)
+# La carpeta .vs/ contiene datos específicos de tu usuario y entorno de trabajo.
+.vs/
+
+# Carpetas de compilación
+# Binarios y objetos generados al compilar (ej: Debug, Release)
+[Bb]in/
+[Oo]bj/
+
+# Paquetes NuGet (aunque usualmente se almacenan fuera del repo)
+packages/
+*.nupkg
+
+# Bases de datos y archivos de caché internos
+*.suo
+*.user
+*.useros
+*.tlog
+*.pdb
+*.idb
+*.db
+*.sqlite
+*.shm
+*.wal
+*.vsp
+*.vspx
+
+# Archivos de usuario y estado
+*.log
+*.filter
+*.cache
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.ipch
+
+# Archivos generados de la solución
+*.sln.docstates
+
+#---------------------------------------------------------------------------------
+# Reglas para Proyectos Node.js / Web
+#---------------------------------------------------------------------------------
+
+# Dependencias (FUNDAMENTAL: No se versionan las dependencias)
+node_modules
+/node_modules
+/jspm_packages/
+
+# Archivos de compilación y distribución
+# Output de herramientas como Webpack, Vite, Gulp, etc.
+/dist
+/build
+/out
+/release
+/tmp
+
+# Archivos de configuración de entorno (locales)
+# Importante para que las credenciales o configs sensibles no suban.
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.local
+
+# Archivos de cobertura de pruebas
+/coverage
+
+#---------------------------------------------------------------------------------
+# Reglas para Visual Studio Code
+#---------------------------------------------------------------------------------
+
+# Ignorar la configuración del workspace, excepto la de extensiones
+.vscode/
+!.vscode/extensions.json
+#.vscode/settings.json # Descomenta si también quieres ignorar la configuración del workspace.
+
+#---------------------------------------------------------------------------------
+# Reglas para IDEs de JetBrains (IntelliJ, WebStorm, Rider, etc.)
+#---------------------------------------------------------------------------------
+
+.idea/

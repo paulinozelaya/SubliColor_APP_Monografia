@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{16D7F44A-2279-9053-E6EF-569F0081BED0}|sublicolor.client\\sublicolor.client.esproj|c:\\users\\pauli\\downloads\\llevarme\\sublicolor\\app\\sublicolor.client\\src\\components\\layout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{16D7F44A-2279-9053-E6EF-569F0081BED0}|sublicolor.client\\sublicolor.client.esproj|solutionrelative:sublicolor.client\\src\\components\\layout.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4412F64-0E23-42C7-A7EC-3B14FBAADE39}|SubliColor.Server\\SubliColor.Server.csproj|c:\\users\\pauli\\downloads\\llevarme\\sublicolor\\app\\sublicolor.server\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4412F64-0E23-42C7-A7EC-3B14FBAADE39}|SubliColor.Server\\SubliColor.Server.csproj|solutionrelative:sublicolor.server\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D7F44A-2279-9053-E6EF-569F0081BED0}|sublicolor.client\\sublicolor.client.esproj|c:\\users\\pauli\\downloads\\llevarme\\sublicolor\\app\\sublicolor.client\\src\\api\\usuario.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{16D7F44A-2279-9053-E6EF-569F0081BED0}|sublicolor.client\\sublicolor.client.esproj|solutionrelative:sublicolor.client\\src\\api\\usuario.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D7F44A-2279-9053-E6EF-569F0081BED0}|sublicolor.client\\sublicolor.client.esproj|c:\\users\\pauli\\downloads\\llevarme\\sublicolor\\app\\sublicolor.client\\src\\pages\\gestionusuarios.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{16D7F44A-2279-9053-E6EF-569F0081BED0}|sublicolor.client\\sublicolor.client.esproj|solutionrelative:sublicolor.client\\src\\pages\\gestionusuarios.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4412F64-0E23-42C7-A7EC-3B14FBAADE39}|SubliColor.Server\\SubliColor.Server.csproj|c:\\users\\pauli\\downloads\\llevarme\\sublicolor\\app\\sublicolor.server\\models\\dtos\\usuariodtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4412F64-0E23-42C7-A7EC-3B14FBAADE39}|SubliColor.Server\\SubliColor.Server.csproj|solutionrelative:sublicolor.server\\models\\dtos\\usuariodtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D4412F64-0E23-42C7-A7EC-3B14FBAADE39}|SubliColor.Server\\SubliColor.Server.csproj|c:\\users\\pauli\\downloads\\llevarme\\sublicolor\\app\\sublicolor.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{D4412F64-0E23-42C7-A7EC-3B14FBAADE39}|SubliColor.Server\\SubliColor.Server.csproj|solutionrelative:sublicolor.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -11,20 +31,12 @@
       "RelativeMoniker": "D:0:0:{D4412F64-0E23-42C7-A7EC-3B14FBAADE39}|SubliColor.Server\\SubliColor.Server.csproj|solutionrelative:sublicolor.server\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D4412F64-0E23-42C7-A7EC-3B14FBAADE39}|SubliColor.Server\\SubliColor.Server.csproj|c:\\users\\pauli\\downloads\\llevarme\\sublicolor\\app\\sublicolor.server\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4412F64-0E23-42C7-A7EC-3B14FBAADE39}|SubliColor.Server\\SubliColor.Server.csproj|solutionrelative:sublicolor.server\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D4412F64-0E23-42C7-A7EC-3B14FBAADE39}|SubliColor.Server\\SubliColor.Server.csproj|c:\\users\\pauli\\downloads\\llevarme\\sublicolor\\app\\sublicolor.server\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4412F64-0E23-42C7-A7EC-3B14FBAADE39}|SubliColor.Server\\SubliColor.Server.csproj|solutionrelative:sublicolor.server\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\node_modules\\axios\\lib\\core\\Axios.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:sublicolor.client\\node_modules\\axios\\lib\\core\\Axios.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D4412F64-0E23-42C7-A7EC-3B14FBAADE39}|SubliColor.Server\\SubliColor.Server.csproj|c:\\users\\pauli\\downloads\\llevarme\\sublicolor\\app\\sublicolor.server\\models\\dtos\\usuariodtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D4412F64-0E23-42C7-A7EC-3B14FBAADE39}|SubliColor.Server\\SubliColor.Server.csproj|solutionrelative:sublicolor.server\\models\\dtos\\usuariodtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -67,19 +79,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Layout.jsx",
+              "DocumentMoniker": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\src\\components\\Layout.jsx",
+              "RelativeDocumentMoniker": "sublicolor.client\\src\\components\\Layout.jsx",
+              "ToolTip": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\src\\components\\Layout.jsx",
+              "RelativeToolTip": "sublicolor.client\\src\\components\\Layout.jsx",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAAALgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-18T17:28:26.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "usuario.jsx",
+              "DocumentMoniker": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\src\\api\\usuario.jsx",
+              "RelativeDocumentMoniker": "sublicolor.client\\src\\api\\usuario.jsx",
+              "ToolTip": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\src\\api\\usuario.jsx",
+              "RelativeToolTip": "sublicolor.client\\src\\api\\usuario.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-18T17:25:46.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GestionUsuarios.jsx",
+              "DocumentMoniker": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\src\\pages\\GestionUsuarios.jsx",
+              "RelativeDocumentMoniker": "sublicolor.client\\src\\pages\\GestionUsuarios.jsx",
+              "ToolTip": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\src\\pages\\GestionUsuarios.jsx",
+              "RelativeToolTip": "sublicolor.client\\src\\pages\\GestionUsuarios.jsx",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAQwFkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2025-10-18T17:24:49.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\appsettings.json",
               "RelativeDocumentMoniker": "SubliColor.Server\\appsettings.json",
               "ToolTip": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\appsettings.json",
               "RelativeToolTip": "SubliColor.Server\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-10-18T17:08:30.035Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "SubliColor.Server\\Data\\AppDbContext.cs",
@@ -92,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "DashboardController.cs",
               "DocumentMoniker": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "SubliColor.Server\\Controllers\\DashboardController.cs",
@@ -104,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Axios.js",
               "DocumentMoniker": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\node_modules\\axios\\lib\\core\\Axios.js",
               "RelativeDocumentMoniker": "sublicolor.client\\node_modules\\axios\\lib\\core\\Axios.js",
@@ -116,25 +167,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "UsuarioDtos.cs",
               "DocumentMoniker": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\Models\\DTOs\\UsuarioDtos.cs",
               "RelativeDocumentMoniker": "SubliColor.Server\\Models\\DTOs\\UsuarioDtos.cs",
               "ToolTip": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\Models\\DTOs\\UsuarioDtos.cs",
               "RelativeToolTip": "SubliColor.Server\\Models\\DTOs\\UsuarioDtos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwBQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-15T22:30:01.738Z"
+              "WhenOpened": "2025-10-15T22:30:01.738Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "SubliColor.Server\\Controllers\\UsuariosController.cs",
               "ToolTip": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "SubliColor.Server\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAcwJIAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-15T22:28:52.893Z",
               "EditorCaption": ""
