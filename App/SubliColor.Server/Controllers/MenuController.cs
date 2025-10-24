@@ -40,7 +40,7 @@ public class MenuController : ControllerBase
             .ToList();
 
         var rootMenus = menus
-            .Where(m => m.IdMenuPadre == null)
+            .Where(m => m.IdMenuPadre == null && m.EstaActivo == true)
             .Select(m => MapToDto(m, menus))
             .ToList();
 

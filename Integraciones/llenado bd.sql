@@ -436,6 +436,12 @@ VALUES
 	'Menu_GestionVenta',
 	'Gestion Venta',
 	'pi pi-wallet'
+),
+(
+	NULL,
+	'Menu_GestionPersona',
+	'Gestion Personas',
+	'pi pi-id-card'
 )
 
 
@@ -475,3 +481,15 @@ INSERT INTO Administracion.RolMenu
 )
 VALUES
 (1, 5);
+
+INSERT INTO Administracion.RolMenu
+(
+    IdRol,
+    IdMenu
+)
+VALUES
+(1, 9);
+
+UPDATE [Administracion].[Menu]
+SET EstaActivo = 0
+WHERE CodigoInterno = 'Menu_GestionConfiguracion'
