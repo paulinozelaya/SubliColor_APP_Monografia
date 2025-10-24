@@ -10,33 +10,68 @@
 @tailwind utilities;
 
 /* ============================================================
-   OVERRIDES – PRIME REACT + TAILWIND GLASS MODE
-   ============================================================ */
+    OVERRIDES – PRIME REACT + TAILWIND GLASS MODE
+    ============================================================ */
 
 /* Input fields (InputText + Password) */
 .p-inputtext,
 .p-password-input {
   width: 100% !important;
-  background-color: rgba(255, 255, 255, 0.1) !important;
-  border: 1px solid rgba(255, 255, 255, 0.25) !important;
-  /* color: #f8fafc !important; */
+  background-color: #ffffff !important;
+  border: 2px solid #d1d5db !important; 
+  color: #1f2937 !important; 
   border-radius: 0.5rem !important;
   font-size: 0.95rem !important;
   padding: 0.65rem 0.75rem !important;
   transition: all 0.25s ease-in-out !important;
   box-shadow: none !important;
+  cursor: text !important;
 }
 
-/* Hover & focus states */
+.p-dropdown,
+.p-multiselect {
+    width: 100% !important;
+    background-color: #ffffff !important;
+    border: 2px solid #d1d5db !important;
+    color: #1f2937 !important;
+    border-radius: 0.5rem !important;
+    font-size: 0.95rem !important;
+    padding: 0.45rem 0.75rem !important;
+    transition: all 0.25s ease-in-out !important;
+    box-shadow: none !important;
+    cursor: pointer !important; 
+}
+
+.p-dropdown .p-dropdown-label {
+    background-color: transparent !important; 
+    border: none !important;
+    padding: 0 !important; 
+    line-height: inherit !important; 
+    color: #1f2937 !important; 
+}
+
+/* El placeholder sí puede tener un color específico */
+.p-dropdown .p-dropdown-label.p-placeholder,
+.p-multiselect .p-multiselect-label.p-placeholder {
+    color: #6b7280 !important;
+}
+
+/* Hover para campos de texto (InputText, Password) */
 .p-inputtext:hover,
-.p-password-input:hover {
-  background-color: rgba(255, 255, 255, 0.15) !important;
+.p-password-input:hover { 
+    border-color: #a5b4fc !important; /* light-blue/indigo 300 - Borde sutil */
+}
+
+/* Hover para Dropdowns y MultiSelect */
+.p-dropdown:not(.p-disabled):hover,
+.p-multiselect:not(.p-disabled):hover {
+    border-color: #a5b4fc !important; /* light-blue/indigo 300 - Borde sutil */
 }
 
 .p-inputtext:focus,
 .p-password-input:focus {
   border-color: #60a5fa !important; /* blue-400 */
-  background-color: rgba(255, 255, 255, 0.18) !important;
+  background-color: #ffffff !important; 
   box-shadow: 0 0 6px rgba(96, 165, 250, 0.4) !important;
   transform: scale(1.01);
 }
@@ -44,13 +79,13 @@
 /* Placeholder */
 .p-inputtext::placeholder,
 .p-password-input::placeholder {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: #6b7280 !important; 
 }
 
 /* Icons inside password / input */
 .p-input-icon-left > i,
 .p-password-icon {
-  color: rgba(255, 255, 255, 0.6) !important;
+  color: #4b5563 !important;
 }
 
 /* Password wrapper fix */
@@ -60,7 +95,8 @@
 
 /* FloatLabel */
 .p-float-label label {
-  color: rgba(255, 255, 255, 0.65) !important;
+  /* color: rgba(255, 255, 255, 0.65) !important; -- Original, cambiado abajo */
+  color: #9ca3af !important;
   font-weight: 400;
   transition: all 0.2s ease;
   background: transparent;
@@ -70,7 +106,7 @@
 .p-float-label input.p-filled ~ label,
 .p-float-label .p-password-input:focus ~ label,
 .p-float-label .p-password-input.p-filled ~ label {
-  color: #93c5fd !important; /* light blue */
+  color: #3b82f6 !important; /* light blue */
   transform: translateY(-0.8rem);
   font-size: 0.75rem;
 }

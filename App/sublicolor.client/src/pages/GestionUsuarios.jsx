@@ -132,28 +132,27 @@ export default function GestionUsuarios() {
       {/* === Header Card === */}
       <Card
         title={
-          <div className="flex items-center gap-2 text-indigo-900 font-semibold">
-            <i className="pi pi-users text-indigo-600 text-lg"></i>
-            <span>Gestión de Usuarios</span>
+          <div className="flex justify-between items-center pr-2">
+            <div className="flex items-center gap-2 text-indigo-900 font-semibold">
+              <i className="pi pi-users text-indigo-600 text-lg"></i>
+              <span className="text-xl">Gestión de Usuarios</span>
+            </div>
+            <Button
+              label="Nuevo Usuario"
+              icon="pi pi-plus"
+              className="bg-blue-500 hover:bg-blue-600 border-none shadow-md text-white px-3 py-1.5 rounded-lg transition-all text-sm"
+              onClick={() => {
+                resetForm();
+                setVisible(true);
+              }}
+            />
           </div>
         }
         className="rounded-2xl shadow-lg border border-gray-200/50 backdrop-blur-md bg-white/80"
       >
-        {/* Botón Nuevo */}
-        <div className="flex justify-end mb-4">
-          <Button
-            label="Nuevo Usuario"
-            icon="pi pi-plus"
-            className="bg-indigo-600 hover:bg-indigo-700 border-none shadow-md text-white px-4 py-2 rounded-lg transition-all"
-            onClick={() => {
-              resetForm();
-              setVisible(true);
-            }}
-          />
-        </div>
 
         {/* Tabla de usuarios */}
-        <div className="rounded-xl overflow-hidden">
+        <div className="rounded-xl overflow-hidden mt-4">
           <DataTable
             value={usuarios}
             paginator
@@ -219,6 +218,7 @@ export default function GestionUsuarios() {
       </Card>
 
       {/* === Diálogo === */}
+      {/* === Diálogo === */}
       <Dialog
         header={
           <div className="flex items-center gap-2 text-indigo-900 font-semibold">
@@ -238,6 +238,7 @@ export default function GestionUsuarios() {
             <InputText
               value={form.usuario}
               onChange={(e) => setForm({ ...form, usuario: e.target.value })}
+              autoComplete="off"
             />
           </div>
 
@@ -246,6 +247,7 @@ export default function GestionUsuarios() {
             <InputText
               value={form.email}
               onChange={(e) => setForm({ ...form, email: e.target.value })}
+              autoComplete="off"
             />
           </div>
 
@@ -257,6 +259,7 @@ export default function GestionUsuarios() {
                 onChange={(e) => setForm({ ...form, clave: e.target.value })}
                 toggleMask
                 feedback={false}
+                inputProps={{ autoComplete: "new-password" }}
               />
             </div>
           )}
@@ -268,7 +271,7 @@ export default function GestionUsuarios() {
               options={personas}
               onChange={(e) => setForm({ ...form, idPersona: e.value })}
               placeholder="Selecciona una persona"
-              className="w-full"
+              className="w-full bg-white" 
             />
           </div>
 
@@ -280,7 +283,7 @@ export default function GestionUsuarios() {
               onChange={(e) => setForm({ ...form, roles: e.value })}
               placeholder="Selecciona roles"
               display="chip"
-              className="w-full"
+              className="w-full bg-white" 
             />
           </div>
 
