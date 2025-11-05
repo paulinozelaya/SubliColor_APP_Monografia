@@ -185,7 +185,7 @@ export default function Layout() {
         </main>
 
         {/* Footer */}
-        <footer className="p-4 text-center text-sm text-white border-t bg-gradient-to-r from-indigo-950 via-indigo-900 to-slate-900/90 backdrop-blur-md shadow-inner select-none">
+        <footer className="py-2 text-center text-xs text-white border-t bg-gradient-to-r from-indigo-950 via-indigo-900 to-slate-900/90 backdrop-blur-md shadow-inner select-none">
           📅 {fechaHora.toLocaleDateString()} ⏰{" "}
           {fechaHora.toLocaleTimeString()}
         </footer>
