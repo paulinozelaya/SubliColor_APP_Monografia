@@ -1,0 +1,20 @@
+# Ignorar carpetas de Visual Studio
+.vs/
+*.user
+*.suo
+
+# Ignorar binarios y carpetas de compilación
+bin/
+obj/
+out/
+
+# Ignorar archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar dependencias comunes
+node_modules/
+vendor/
+
+# Ignorar archivos de entorno
+.env
