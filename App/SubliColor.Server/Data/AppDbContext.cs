@@ -427,7 +427,7 @@ public partial class AppDbContext : DbContext
 
             entity.ToTable("PersonaDireccion", "Administracion");
 
-            entity.Property(e => e.Contacto).HasMaxLength(255);
+            entity.Property(e => e.Direccion).HasMaxLength(255);
             entity.Property(e => e.EstaActivo).HasDefaultValue(true);
             entity.Property(e => e.FechaCreacion)
                 .HasDefaultValueSql("(getdate())")
@@ -446,7 +446,7 @@ public partial class AppDbContext : DbContext
 
             entity.ToTable("PersonaIdentificacion", "Administracion");
 
-            entity.Property(e => e.Contacto).HasMaxLength(255);
+            entity.Property(e => e.Identificacion).HasMaxLength(255);
             entity.Property(e => e.EstaActivo).HasDefaultValue(true);
             entity.Property(e => e.FechaCreacion)
                 .HasDefaultValueSql("(getdate())")

@@ -28,12 +28,21 @@ namespace SubliColor.Server.Services
         // ================= LOGIN =================
         public Usuario? ValidarUsuario(string usuario, string clave)
         {
-            return _context.Usuarios
+            var user = _context.Usuarios
                 .FirstOrDefault(u =>
                     u.Usuario1 == usuario &&
-                    u.Clave == clave &&
                     u.EstaActivo == true &&
                     (u.EstaBloqueado == false || u.EstaBloqueado == null));
+
+            if (user == null)
+                return null;
+
+            bool isPasswordValid = BCrypt.Net.BCrypt.Verify(clave, user.Clave);
+
+            if (!isPasswordValid)
+                return null;
+
+            return user;
         }
 
         public List<string> ObtenerRoles(int idUsuario)
@@ -126,7 +135,7 @@ namespace SubliColor.Server.Services
             if (usuario == null)
                 return false;
 
-            usuario.Clave = nuevaClave; // ⚠️ Texto plano por ahora
+            usuario.Clave = BCrypt.Net.BCrypt.HashPassword(nuevaClave);
 
             tokenBD.Usado = true;
             tokenBD.FechaModificacion = DateTime.UtcNow;

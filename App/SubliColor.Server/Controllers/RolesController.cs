@@ -17,85 +17,92 @@ namespace SubliColor.Server.Controllers
             _context = context;
         }
 
-        // ================== GET TODOS ==================
         [HttpGet]
         public async Task<ActionResult<IEnumerable<RolDto>>> GetRoles()
         {
-            var roles = await _context.Rols.ToListAsync();
-            return roles.Select(MapToDto).ToList();
+            var roles = await _context.Rols
+                .Select(r => new RolDto
+                {
+                    IdRol = r.IdRol,
+                    CodigoInterno = r.CodigoInterno,
+                    Nombre = r.Nombre ?? "",
+                    Descripcion = r.Descripcion,
+                    EstaActivo = r.EstaActivo ?? true
+                })
+                .ToListAsync();
+
+            return Ok(roles);
         }
 
-        // ================== GET UNO ==================
         [HttpGet("{id}")]
         public async Task<ActionResult<RolDto>> GetRol(int id)
         {
             var rol = await _context.Rols.FindAsync(id);
             if (rol == null) return NotFound();
 
-            return MapToDto(rol);
+            return new RolDto
+            {
+                IdRol = rol.IdRol,
+                CodigoInterno = rol.CodigoInterno,
+                Nombre = rol.Nombre ?? "",
+                Descripcion = rol.Descripcion,
+                EstaActivo = rol.EstaActivo ?? true
+            };
         }
 
-        // ================== POST ==================
         [HttpPost]
-        public async Task<ActionResult<RolDto>> CrearRol([FromBody] CrearRolDto dto)
+        public async Task<ActionResult<RolDto>> CrearRol([FromBody] RolDto dto)
         {
+            if (string.IsNullOrWhiteSpace(dto.CodigoInterno))
+                return BadRequest("El código interno es obligatorio.");
+            if (string.IsNullOrWhiteSpace(dto.Nombre))
+                return BadRequest("El nombre del rol es obligatorio.");
+
             var rol = new Rol
             {
                 CodigoInterno = dto.CodigoInterno,
                 Nombre = dto.Nombre,
                 Descripcion = dto.Descripcion,
                 EstaActivo = true,
-                FechaCreacion = DateTime.UtcNow
+                FechaCreacion = DateTime.Now,
+                IdUsuarioCreacion = 1
             };
 
             _context.Rols.Add(rol);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetRol), new { id = rol.IdRol }, MapToDto(rol));
+            dto.IdRol = rol.IdRol;
+            return CreatedAtAction(nameof(GetRol), new { id = rol.IdRol }, dto);
         }
 
-        // ================== PUT ==================
         [HttpPut("{id}")]
-        public async Task<IActionResult> ActualizarRol(int id, [FromBody] ActualizarRolDto dto)
+        public async Task<IActionResult> ActualizarRol(int id, [FromBody] RolDto dto)
         {
-            if (id != dto.IdRol) return BadRequest();
-
             var rol = await _context.Rols.FindAsync(id);
             if (rol == null) return NotFound();
 
             rol.CodigoInterno = dto.CodigoInterno;
             rol.Nombre = dto.Nombre;
             rol.Descripcion = dto.Descripcion;
-            rol.FechaModificacion = DateTime.UtcNow;
+            rol.EstaActivo = dto.EstaActivo ?? rol.EstaActivo;
+            rol.FechaModificacion = DateTime.Now;
+            rol.IdUsuarioModificacion = 1;
 
             await _context.SaveChangesAsync();
             return NoContent();
         }
 
-        // ================== DELETE ==================
         [HttpDelete("{id}")]
         public async Task<IActionResult> EliminarRol(int id)
         {
             var rol = await _context.Rols.FindAsync(id);
             if (rol == null) return NotFound();
 
-            // 🔹 Borrado lógico
             rol.EstaActivo = false;
-            rol.FechaModificacion = DateTime.UtcNow;
+            rol.FechaModificacion = DateTime.Now;
 
             await _context.SaveChangesAsync();
             return NoContent();
         }
-
-        // ================== MAPPER ==================
-        private RolDto MapToDto(Rol r) =>
-            new RolDto
-            {
-                IdRol = r.IdRol,
-                CodigoInterno = r.CodigoInterno,
-                Nombre = r.Nombre,
-                Descripcion = r.Descripcion,
-                EstaActivo = r.EstaActivo ?? false
-            };
     }
 }

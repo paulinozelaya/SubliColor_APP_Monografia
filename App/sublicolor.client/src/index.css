@@ -1,8 +1,8 @@
 /* === PRIME REACT THEMES FIRST === */
-@import 'primereact/resources/themes/lara-light-blue/theme.css';
-@import 'primereact/resources/primereact.min.css';
-@import 'primeicons/primeicons.css';
-@import 'primeflex/primeflex.css';
+@import "primereact/resources/themes/lara-light-blue/theme.css";
+@import "primereact/resources/primereact.min.css";
+@import "primeicons/primeicons.css";
+@import "primeflex/primeflex.css";
 
 /* === THEN TAILWIND === */
 @tailwind base;
@@ -18,8 +18,8 @@
 .p-password-input {
   width: 100% !important;
   background-color: #ffffff !important;
-  border: 2px solid #d1d5db !important; 
-  color: #1f2937 !important; 
+  border: 2px solid #d1d5db !important;
+  color: #1f2937 !important;
   border-radius: 0.5rem !important;
   font-size: 0.95rem !important;
   padding: 0.65rem 0.75rem !important;
@@ -30,48 +30,48 @@
 
 .p-dropdown,
 .p-multiselect {
-    width: 100% !important;
-    background-color: #ffffff !important;
-    border: 2px solid #d1d5db !important;
-    color: #1f2937 !important;
-    border-radius: 0.5rem !important;
-    font-size: 0.95rem !important;
-    padding: 0.45rem 0.75rem !important;
-    transition: all 0.25s ease-in-out !important;
-    box-shadow: none !important;
-    cursor: pointer !important; 
+  width: 100% !important;
+  background-color: #ffffff !important;
+  border: 2px solid #d1d5db !important;
+  color: #1f2937 !important;
+  border-radius: 0.5rem !important;
+  font-size: 0.95rem !important;
+  padding: 0.45rem 0.75rem !important;
+  transition: all 0.25s ease-in-out !important;
+  box-shadow: none !important;
+  cursor: pointer !important;
 }
 
 .p-dropdown .p-dropdown-label {
-    background-color: transparent !important; 
-    border: none !important;
-    padding: 0 !important; 
-    line-height: inherit !important; 
-    color: #1f2937 !important; 
+  background-color: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  line-height: inherit !important;
+  color: #1f2937 !important;
 }
 
 /* El placeholder sí puede tener un color específico */
 .p-dropdown .p-dropdown-label.p-placeholder,
 .p-multiselect .p-multiselect-label.p-placeholder {
-    color: #6b7280 !important;
+  color: #6b7280 !important;
 }
 
 /* Hover para campos de texto (InputText, Password) */
 .p-inputtext:hover,
-.p-password-input:hover { 
-    border-color: #a5b4fc !important; /* light-blue/indigo 300 - Borde sutil */
+.p-password-input:hover {
+  border-color: #a5b4fc !important; /* light-blue/indigo 300 - Borde sutil */
 }
 
 /* Hover para Dropdowns y MultiSelect */
 .p-dropdown:not(.p-disabled):hover,
 .p-multiselect:not(.p-disabled):hover {
-    border-color: #a5b4fc !important; /* light-blue/indigo 300 - Borde sutil */
+  border-color: #a5b4fc !important; /* light-blue/indigo 300 - Borde sutil */
 }
 
 .p-inputtext:focus,
 .p-password-input:focus {
   border-color: #60a5fa !important; /* blue-400 */
-  background-color: #ffffff !important; 
+  background-color: #ffffff !important;
   box-shadow: 0 0 6px rgba(96, 165, 250, 0.4) !important;
   transform: scale(1.01);
 }
@@ -79,7 +79,7 @@
 /* Placeholder */
 .p-inputtext::placeholder,
 .p-password-input::placeholder {
-  color: #6b7280 !important; 
+  color: #6b7280 !important;
 }
 
 /* Icons inside password / input */
@@ -130,13 +130,13 @@
 }
 
 /* Forgot password link (brighter, readable) */
-a {
+.inputpass a {
   color: #bfdbfe; /* text-blue-200 */
   text-decoration: none;
   transition: color 0.2s ease-in-out;
 }
 
-a:hover {
+.inputpass a:hover {
   color: #e0f2fe; /* text-blue-100 */
 }
 
@@ -149,7 +149,7 @@ a:hover {
   border-radius: 1rem !important;
 }
 
-.p-card a,
+.inputpass .p-card a,
 a {
   color: #dbeafe !important; /* text-blue-200 */
   font-weight: 400 !important;
@@ -170,4 +170,19 @@ p.text-xs {
   font-weight: 400 !important;
   letter-spacing: 0.2px;
   text-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+}
+
+/* Forzar Toast encima de cualquier Dialog de PrimeReact */
+/* Forzar el Toast por encima de todos los PrimeReact overlays */
+.p-toast {
+  z-index: 999999 !important;
+  position: fixed !important;
+}
+
+.p-dialog-mask {
+  z-index: 1100 !important;
+}
+
+.p-dialog {
+  z-index: 1200 !important;
 }

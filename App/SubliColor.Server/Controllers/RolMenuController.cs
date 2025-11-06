@@ -17,74 +17,86 @@ namespace SubliColor.Server.Controllers
             _context = context;
         }
 
-        // ================== GET TODOS ==================
+        // GET: api/RolMenu/menus
+        //[HttpGet("menus")]
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<RolMenuDto>>> GetRolMenus()
+        public async Task<IActionResult> GetMenus()
         {
-            var rolMenus = await _context.RolMenus
-                .Include(rm => rm.IdRolNavigation)
-                .Include(rm => rm.IdMenuNavigation)
+            var menus = await _context.Menus
+                .Where(m => m.EstaActivo == true)
+                .Select(m => new MenuDto
+                {
+                    IdMenu = m.IdMenu,
+                    Nombre = m.Nombre ?? "",
+                    IdMenuPadre = m.IdMenuPadre,
+                    Icono = m.Icono ?? "pi pi-folder"
+                })
                 .ToListAsync();
 
-            return rolMenus.Select(MapToDto).ToList();
+            var menuJerarquico = menus
+                .Where(m => m.IdMenuPadre == null)
+                .Select(m => MapToDto(m, menus))
+                .ToList();
+
+            return Ok(menuJerarquico);
         }
 
-        // ================== GET UNO ==================
-        [HttpGet("{id}")]
-        public async Task<ActionResult<RolMenuDto>> GetRolMenu(int id)
+        private MenuDto MapToDto(MenuDto menu, List<MenuDto> allMenus)
         {
-            var rolMenu = await _context.RolMenus
-                .Include(rm => rm.IdRolNavigation)
-                .Include(rm => rm.IdMenuNavigation)
-                .FirstOrDefaultAsync(rm => rm.IdRolMenu == id);
-
-            if (rolMenu == null) return NotFound();
-
-            return MapToDto(rolMenu);
+            return new MenuDto
+            {
+                IdMenu = menu.IdMenu,
+                Nombre = menu.Nombre,
+                IdMenuPadre = menu.IdMenuPadre,
+                Icono = menu.Icono,
+                SubMenus = allMenus
+                    .Where(sm => sm.IdMenuPadre == menu.IdMenu)
+                    .Select(sm => MapToDto(sm, allMenus))
+                    .ToList()
+            };
         }
 
-        // ================== POST ==================
+        // GET: api/RolMenu/{idRol}
+        [HttpGet("{idRol}")]
+        public async Task<IActionResult> GetMenusPorRol(int idRol)
+        {
+            var ids = await _context.RolMenus
+                .Where(rm => rm.IdRol == idRol && rm.EstaActivo == true)
+                .Select(rm => rm.IdMenu)
+                .ToListAsync();
+
+            return Ok(ids);
+        }
+
+        // POST: api/RolMenu/asignar
+        //[HttpPost("asignar")]
         [HttpPost]
-        public async Task<ActionResult<RolMenuDto>> CrearRolMenu([FromBody] CrearRolMenuDto dto)
+        public async Task<IActionResult> AsignarMenus([FromBody] AsignarMenuDto dto)
         {
-            var rolMenu = new RolMenu
-            {
-                IdRol = dto.IdRol,
-                IdMenu = dto.IdMenu,
-                EstaActivo = true,
-                FechaCreacion = DateTime.UtcNow
-            };
+            if (dto == null)
+                return BadRequest("El cuerpo de la solicitud es requerido.");
 
-            _context.RolMenus.Add(rolMenu);
+            var existentes = await _context.RolMenus
+                .Where(rm => rm.IdRol == dto.IdRol)
+                .ToListAsync();
+
+            _context.RolMenus.RemoveRange(existentes);
+
+            foreach (var idMenu in dto.IdsMenus)
+            {
+                _context.RolMenus.Add(new RolMenu
+                {
+                    IdRol = dto.IdRol,
+                    IdMenu = idMenu,
+                    EstaActivo = true,
+                    FechaCreacion = DateTime.Now
+                });
+            }
+
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetRolMenu), new { id = rolMenu.IdRolMenu }, MapToDto(rolMenu));
+            return Ok(new { message = "Menús asignados correctamente" });
         }
 
-        // ================== DELETE ==================
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> EliminarRolMenu(int id)
-        {
-            var rolMenu = await _context.RolMenus.FindAsync(id);
-            if (rolMenu == null) return NotFound();
-
-            rolMenu.EstaActivo = false;
-            rolMenu.FechaModificacion = DateTime.UtcNow;
-
-            await _context.SaveChangesAsync();
-            return NoContent();
-        }
-
-        // ================== MAPPER ==================
-        private RolMenuDto MapToDto(RolMenu rm) =>
-            new RolMenuDto
-            {
-                IdRolMenu = rm.IdRolMenu,
-                IdRol = (int)rm.IdRol,
-                NombreRol = rm.IdRolNavigation?.Nombre,
-                IdMenu = (int)rm.IdMenu,
-                NombreMenu = rm.IdMenuNavigation?.Nombre,
-                EstaActivo = rm.EstaActivo ?? false
-            };
     }
 }

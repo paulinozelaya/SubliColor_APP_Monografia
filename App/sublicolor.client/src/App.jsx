@@ -1,7 +1,10 @@
+import { ToastProvider } from "./context/ToastContext";
 import AppRoutes from "./AppRoutes";
 
-function App() {
-  return <AppRoutes />;
+export default function App() {
+  return (
+    <ToastProvider>
+      <AppRoutes />
+    </ToastProvider>
+  );
 }
-
-export default App;

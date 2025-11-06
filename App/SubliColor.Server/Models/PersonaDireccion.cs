@@ -9,9 +9,7 @@ public partial class PersonaDireccion
 
     public int? IdPersona { get; set; }
 
-    public int? IdTipoContacto { get; set; }
-
-    public string? Contacto { get; set; }
+    public string? Direccion { get; set; }
 
     public bool? EstaActivo { get; set; }
 

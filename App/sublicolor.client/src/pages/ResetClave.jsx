@@ -3,14 +3,14 @@ import { Card } from "primereact/card";
 import { InputText } from "primereact/inputtext";
 import { Password } from "primereact/password";
 import { Button } from "primereact/button";
-import { Toast } from "primereact/toast";
 import api from "../api/auth";
 import { useNavigate } from "react-router-dom";
+import { useToast } from "../context/ToastContext";
 
 export default function ResetClave() {
   const [token, setToken] = useState("");
   const [nuevaClave, setNuevaClave] = useState("");
-  const toast = useRef(null);
+  const toast = useToast();
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
@@ -36,7 +36,6 @@ export default function ResetClave() {
 
   return (
     <div className="flex justify-content-center align-items-center h-screen">
-      <Toast ref={toast} />
       <Card title="Resetear Contraseña" className="w-25rem">
         <form onSubmit={handleSubmit} className="p-fluid">
           <div className="field">

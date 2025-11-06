@@ -69,15 +69,14 @@ namespace SubliColor.Server.Controllers
             // Direcciones
             persona.PersonaDireccions = dto.Direcciones.Select(d => new PersonaDireccion
             {
-                IdTipoContacto = d.IdTipoContacto,
-                Contacto = d.Contacto
+                Direccion = d.Direccion
             }).ToList();
 
             // Identificaciones
             persona.PersonaIdentificacions = dto.Identificaciones.Select(i => new PersonaIdentificacion
             {
-                IdTipoContacto = i.IdTipoContacto,
-                Contacto = i.Contacto
+                IdTipoIdentificacion = i.IdTipoIdentificacion,
+                Identificacion = i.Identificacion
             }).ToList();
 
             _context.Personas.Add(persona);
@@ -118,16 +117,15 @@ namespace SubliColor.Server.Controllers
             _context.PersonaDireccions.RemoveRange(persona.PersonaDireccions);
             persona.PersonaDireccions = dto.Direcciones.Select(d => new PersonaDireccion
             {
-                IdTipoContacto = d.IdTipoContacto,
-                Contacto = d.Contacto
+                Direccion = d.Direccion
             }).ToList();
 
             // Identificaciones
             _context.PersonaIdentificacions.RemoveRange(persona.PersonaIdentificacions);
             persona.PersonaIdentificacions = dto.Identificaciones.Select(i => new PersonaIdentificacion
             {
-                IdTipoContacto = i.IdTipoContacto,
-                Contacto = i.Contacto
+                IdTipoIdentificacion = i.IdTipoIdentificacion,
+                Identificacion = i.Identificacion
             }).ToList();
 
             await _context.SaveChangesAsync();
@@ -167,13 +165,13 @@ namespace SubliColor.Server.Controllers
                 }).ToList(),
                 Direcciones = p.PersonaDireccions.Select(d => new PersonaDireccionDto
                 {
-                    IdTipoContacto = d.IdTipoContacto,
-                    Contacto = d.Contacto
+                    IdPersonaDireccion = d.IdPersonaDireccion,
+                    Direccion = d.Direccion
                 }).ToList(),
                 Identificaciones = p.PersonaIdentificacions.Select(i => new PersonaIdentificacionDto
                 {
-                    IdTipoContacto = i.IdTipoContacto,
-                    Contacto = i.Contacto
+                    IdTipoIdentificacion = i.IdTipoIdentificacion,
+                    Identificacion = i.Identificacion
                 }).ToList()
             };
     }

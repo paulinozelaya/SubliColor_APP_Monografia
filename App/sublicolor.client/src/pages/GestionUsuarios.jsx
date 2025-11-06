@@ -12,6 +12,7 @@ import { MultiSelect } from "primereact/multiselect";
 import usuarioApi from "../api/usuario";
 import personaApi from "../api/personas";
 import rolApi from "../api/rol";
+import { useToast } from "../context/ToastContext";
 
 export default function GestionUsuarios() {
   const [usuarios, setUsuarios] = useState([]);
@@ -26,7 +27,7 @@ export default function GestionUsuarios() {
     idPersona: null,
     roles: [],
   });
-  const toast = useRef(null);
+  const toast = useToast();
 
   useEffect(() => {
     cargarUsuarios();
@@ -127,8 +128,6 @@ export default function GestionUsuarios() {
 
   return (
     <div className="p-0 animate-fadeIn">
-      <Toast ref={toast} />
-
       {/* === Header Card === */}
       <Card
         title={
@@ -260,6 +259,7 @@ export default function GestionUsuarios() {
                 toggleMask
                 feedback={false}
                 inputProps={{ autoComplete: "new-password" }}
+                autoComplete="off"
               />
             </div>
           )}
@@ -272,6 +272,7 @@ export default function GestionUsuarios() {
               onChange={(e) => setForm({ ...form, idPersona: e.value })}
               placeholder="Selecciona una persona"
               className="w-full bg-white" 
+              autoComplete="off"
             />
           </div>
 

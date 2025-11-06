@@ -2,13 +2,13 @@ import { useState, useRef } from "react";
 import { Card } from "primereact/card";
 import { InputText } from "primereact/inputtext";
 import { Button } from "primereact/button";
-import { Toast } from "primereact/toast";
 import api from "../api/auth";
 import { useNavigate } from "react-router-dom";
+import { useToast } from "../context/ToastContext";
 
 export default function RecuperarClave() {
   const [email, setEmail] = useState("");
-  const toast = useRef(null);
+  const toast = useToast();
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
@@ -21,7 +21,7 @@ export default function RecuperarClave() {
         detail: "Revisa tu bandeja de entrada.",
         life: 3000,
       });
-      setTimeout(() => navigate("/resetear"), 1500); // redirigir al reset
+      setTimeout(() => navigate("/resetear"), 1500);
     } catch (error) {
       toast.current.show({
         severity: "error",
@@ -34,7 +34,6 @@ export default function RecuperarClave() {
 
   return (
     <div className="flex justify-content-center align-items-center h-screen">
-      <Toast ref={toast} />
       <Card title="Recuperar Contraseña" className="w-25rem">
         <form onSubmit={handleSubmit} className="p-fluid">
           <div className="field">

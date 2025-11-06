@@ -13,6 +13,14 @@ export default function Layout() {
   const navigate = useNavigate();
   const location = useLocation();
   const userMenuRef = useRef(null);
+  const [openMenus, setOpenMenus] = useState({});
+ 
+  const toggleMenu = (nombre) => {
+    setOpenMenus((prev) => ({
+      ...prev,
+      [nombre]: !prev[nombre],
+    }));
+  };
 
   useEffect(() => {
     const fetchMenu = async () => {
@@ -52,6 +60,69 @@ export default function Layout() {
       },
     },
   ];
+
+  const renderMenuItems = (items, nivel = 0) => {
+    return items.map((item) => {
+      const active = location.pathname === item.url;
+      const tieneHijos = item.subMenus && item.subMenus.length > 0;
+      const isOpen = openMenus[item.nombre] || false;
+
+      return (
+        <div key={item.nombre} className="mb-1">
+          {/* Item principal */}
+          <div
+            onClick={() => {
+              if (tieneHijos) {
+                toggleMenu(item.nombre);
+              } else {
+                navigate(item.url);
+              }
+            }}
+            className={classNames(
+              "group flex items-center justify-between px-4 py-2.5 rounded-lg cursor-pointer transition-all duration-200 relative overflow-hidden",
+              active
+                ? "bg-indigo-500 text-white shadow-md ring-1 ring-indigo-300/50"
+                : "text-white hover:bg-indigo-700/50 hover:text-white"
+            )}
+            style={{ paddingLeft: `${1.5 + nivel * 1.2}rem` }}
+          >
+            {/* Izquierda: icono + texto */}
+            <div className="flex items-center gap-3">
+              <i
+                className={classNames(
+                  item.icono || "pi pi-folder",
+                  "text-lg opacity-80 group-hover:opacity-100 transition-transform duration-200",
+                  active && "scale-110"
+                )}
+              />
+              {!collapsed && (
+                <span className="font-medium tracking-wide truncate transition-all">
+                  {item.nombre}
+                </span>
+              )}
+            </div>
+
+            {/* Derecha: flecha si tiene hijos */}
+            {tieneHijos && !collapsed && (
+              <i
+                className={classNames(
+                  "pi transition-transform duration-200 text-sm",
+                  isOpen ? "pi-chevron-down" : "pi-chevron-right"
+                )}
+              />
+            )}
+          </div>
+
+          {/* Submenús (si está abierto) */}
+          {tieneHijos && isOpen && (
+            <div className="ml-2 border-l border-indigo-700/30 pl-2 mt-1">
+              {renderMenuItems(item.subMenus, nivel + 1)}
+            </div>
+          )}
+        </div>
+      );
+    });
+  };
 
   return (
     <div className="flex h-screen overflow-hidden bg-gradient-to-br from-slate-100 via-indigo-50 to-slate-200 text-slate-800">
@@ -93,37 +164,7 @@ export default function Layout() {
 
         {/* Sidebar menu */}
         <nav className="flex-1 overflow-y-auto py-4 px-2 space-y-1">
-          {menuItems.map((item) => {
-            const active = location.pathname === item.url;
-            return (
-              <div
-                key={item.nombre}
-                onClick={() => navigate(item.url)}
-                className={classNames(
-                  "group flex items-center gap-3 px-4 py-2.5 rounded-lg cursor-pointer transition-all duration-200 relative overflow-hidden",
-                  active
-                    ? "bg-indigo-500 text-white shadow-md ring-1 ring-indigo-300/50"
-                    : "text-white hover:bg-indigo-700/50 hover:text-white"
-                )}
-              >
-                {active && (
-                  <div className="absolute left-0 top-0 w-1 h-full bg-indigo-300 rounded-r-md shadow-sm"></div>
-                )}
-                <i
-                  className={classNames(
-                    item.icono || "pi pi-folder",
-                    "text-lg opacity-80 group-hover:opacity-100 transition-transform duration-200",
-                    active && "scale-110"
-                  )}
-                />
-                {!collapsed && (
-                  <span className="font-medium tracking-wide truncate transition-all">
-                    {item.nombre}
-                  </span>
-                )}
-              </div>
-            );
-          })}
+          {renderMenuItems(menuItems)}
         </nav>
 
         {/* Sidebar footer */}

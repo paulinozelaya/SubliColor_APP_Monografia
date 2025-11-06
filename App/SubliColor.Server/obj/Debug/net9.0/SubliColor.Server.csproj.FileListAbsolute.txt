@@ -345,3 +345,4 @@ C:\Users\pauli\Downloads\Llevarme\SubliColor\App\SubliColor.Server\obj\Debug\net
 C:\Users\pauli\Downloads\Llevarme\SubliColor\App\SubliColor.Server\obj\Debug\net9.0\SubliColor.Server.pdb
 C:\Users\pauli\Downloads\Llevarme\SubliColor\App\SubliColor.Server\obj\Debug\net9.0\SubliColor.Server.genruntimeconfig.cache
 C:\Users\pauli\Downloads\Llevarme\SubliColor\App\SubliColor.Server\obj\Debug\net9.0\ref\SubliColor.Server.dll
+C:\Users\pauli\Downloads\Llevarme\SubliColor\App\SubliColor.Server\obj\Debug\net9.0\SubliColor.Server.sourcelink.json

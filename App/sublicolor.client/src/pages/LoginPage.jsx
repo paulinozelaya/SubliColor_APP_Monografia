@@ -3,18 +3,18 @@ import { Card } from "primereact/card";
 import { InputText } from "primereact/inputtext";
 import { Password } from "primereact/password";
 import { Button } from "primereact/button";
-import { Toast } from "primereact/toast";
 import { useNavigate, Link } from "react-router-dom";
 import api from "../api/auth";
 import { AuthContext } from "../context/AuthContext";
 import { FloatLabel } from "primereact/floatlabel";
+import { useToast } from "../context/ToastContext";
 
 export default function LoginPage() {
   const [usuario, setUsuario] = useState("");
   const [clave, setClave] = useState("");
-  const toast = useRef(null);
   const navigate = useNavigate();
   const { login } = useContext(AuthContext);
+  const toast = useToast();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -34,8 +34,6 @@ export default function LoginPage() {
 
   return (
     <div className="flex items-center justify-center h-screen bg-gradient-to-br from-blue-900 via-slate-900 to-gray-900 relative overflow-hidden">
-      <Toast ref={toast} />
-
       {/* Fondo animado */}
       <div className="absolute inset-0 opacity-20 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-blue-500 via-purple-500 to-transparent blur-3xl animate-pulse"></div>
 
@@ -50,7 +48,7 @@ export default function LoginPage() {
                 alt="logo"
                 onError={(e) =>
                   (e.currentTarget.src =
-                    'https://source.unsplash.com/random/100x100?logo')
+                    "https://subir-imagen.com/images/2025/10/15/IMG_9439.jpeg")
                 }
                 className="h-16 w-16 rounded-full mb-3 shadow-md object-cover"
               />
@@ -85,7 +83,7 @@ export default function LoginPage() {
                 onChange={(e) => setClave(e.target.value)}
                 feedback={false}
                 toggleMask
-                className="w-full"
+                className="w-full inputPass"
                 required
               />
               <label htmlFor="clave">Contraseña</label>
