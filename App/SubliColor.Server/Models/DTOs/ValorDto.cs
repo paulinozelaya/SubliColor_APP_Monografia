@@ -2,7 +2,7 @@
 {
     public class ValorDto
     {
-        public int IdValor { get; set; }
+        public int? IdValor { get; set; }
         public int IdCategoria { get; set; }
         public string CodigoInterno { get; set; } = "";
         public string Nombre { get; set; } = "";

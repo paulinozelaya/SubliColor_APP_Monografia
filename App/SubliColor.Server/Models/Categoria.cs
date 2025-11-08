@@ -24,4 +24,5 @@ public partial class Categoria
     public DateTime? FechaModificacion { get; set; }
 
     public virtual ICollection<Valor> Valors { get; set; } = new List<Valor>();
+    public virtual ICollection<Producto> Productos { get; set; } = new List<Producto>();
 }

@@ -11,13 +11,13 @@ public partial class Venta
 
     public string? NumeroFactura { get; set; }
 
-    public decimal SubTotal { get; set; }
+    public decimal? SubTotal { get; set; }
 
-    public decimal Descuento { get; set; }
+    public decimal? Descuento { get; set; }
 
-    public decimal Total { get; set; }
+    public decimal? Total { get; set; }
 
-    public string? IdMetodoPago { get; set; }
+    public int? IdMetodoPago { get; set; }
 
     public string? Observacion { get; set; }
 

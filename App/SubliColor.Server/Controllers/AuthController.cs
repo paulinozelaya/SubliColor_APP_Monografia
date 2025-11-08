@@ -3,6 +3,7 @@ using SubliColor.Server.Models;
 using SubliColor.Server.Services;
 using SubliColor.Server.Data;
 using SubliColor.Server.Models.Auth;
+using Microsoft.EntityFrameworkCore;
 
 namespace SubliColor.Server.Controllers
 {
@@ -23,6 +24,7 @@ namespace SubliColor.Server.Controllers
         public IActionResult Login([FromBody] LoginRequest request)
         {
             var usuario = _authService.ValidarUsuario(request.Usuario, request.Clave);
+
             if (usuario == null)
             {
                 // Registrar intento fallido
@@ -40,13 +42,23 @@ namespace SubliColor.Server.Controllers
                 return Unauthorized("Credenciales inválidas.");
             }
 
+            // Cargar relaciones Persona y Roles
+            var usuarioCompleto = _context.Usuarios
+                .Include(u => u.IdPersonaNavigation)
+                .Include(u => u.UsuarioRols)
+                    .ThenInclude(ur => ur.IdRolNavigation)
+                .FirstOrDefault(u => u.IdUsuario == usuario.IdUsuario);
+
+            if (usuarioCompleto == null)
+                return Unauthorized("Error al obtener datos del usuario.");
+
             // Generar token
-            var token = _authService.GenerarToken(usuario);
+            var token = _authService.GenerarToken(usuarioCompleto);
 
             // Registrar inicio de sesión exitoso
             _context.AuditoriaInicioSesions.Add(new AuditoriaInicioSesion
             {
-                IdUsuario = usuario.IdUsuario,
+                IdUsuario = usuarioCompleto.IdUsuario,
                 Exitoso = true,
                 FechaInicio = DateTime.Now,
                 DireccionIP = HttpContext.Connection.RemoteIpAddress?.ToString(),
@@ -55,15 +67,29 @@ namespace SubliColor.Server.Controllers
             });
             _context.SaveChanges();
 
+            // Construir nombre completo
+            var persona = usuarioCompleto.IdPersonaNavigation;
+            string nombrePersona = persona != null
+                ? $"{persona.PrimerNombre} {persona.SegundoNombre} {persona.PrimerApellido} {persona.SegundoApellido}".Trim()
+                : "Sin nombre registrado";
+
+            // Concatenar roles
+            string roles = string.Join(", ",
+                usuarioCompleto.UsuarioRols
+                    .Select(ur => ur.IdRolNavigation.Nombre)
+                    .Where(r => !string.IsNullOrWhiteSpace(r))
+            );
+
             return Ok(new
             {
                 token,
                 usuario = new
                 {
-                    usuario.IdUsuario,
-                    usuario.Usuario1,
-                    usuario.Email,
-                    Roles = _authService.ObtenerRoles(usuario.IdUsuario)
+                    usuarioCompleto.IdUsuario,
+                    usuarioCompleto.Usuario1,
+                    usuarioCompleto.Email,
+                    NombrePersona = nombrePersona,
+                    Roles = string.IsNullOrEmpty(roles) ? "Sin rol asignado" : roles
                 }
             });
         }

@@ -49,8 +49,8 @@ export default function Layout() {
   };
 
   const userMenu = [
-    { label: "Perfil", icon: "pi pi-user", command: () => navigate("/perfil") },
-    { separator: true },
+    // { label: "Perfil", icon: "pi pi-user", command: () => navigate("/perfil") },
+    // { separator: true },
     {
       label: "Cerrar sesión",
       icon: "pi pi-sign-out",
@@ -144,10 +144,10 @@ export default function Layout() {
             {!collapsed && (
               <div className="flex flex-col">
                 <span className="font-semibold text-white leading-tight">
-                  {usuario?.nombre ?? "Paulino Zelaya"}
+                  {usuario?.nombrePersona ?? "Nombre Desconocido"}
                 </span>
                 <span className="text-xs text-white">
-                  {usuario?.rol || "Administrador"}
+                  {usuario?.roles || "Roles Desconocidos"}
                 </span>
               </div>
             )}
@@ -157,7 +157,7 @@ export default function Layout() {
             icon={
               collapsed ? "pi pi-angle-double-right" : "pi pi-angle-double-left"
             }
-            className="p-button-text text-gray-400 hover:text-indigo-300 transition-all"
+            className="p-button-text text-white hover:text-indigo-300 transition-all"
             onClick={() => setCollapsed(!collapsed)}
           />
         </div>
@@ -168,7 +168,7 @@ export default function Layout() {
         </nav>
 
         {/* Sidebar footer */}
-        <div className="p-3 border-t border-indigo-800/40 text-center text-xs text-gray-400 select-none">
+        <div className="p-3 border-t border-indigo-800/40 text-center text-xs text-white select-none">
           {!collapsed ? "© 2025 SubliColor" : "©"}
         </div>
       </aside>
@@ -198,7 +198,7 @@ export default function Layout() {
                 shape="circle"
                 size="small"
                 image={`https://api.dicebear.com/8.x/thumbs/svg?seed=${
-                  usuario?.nombre ?? "User"
+                  usuario?.usuario1 ?? "User"
                 }`}
                 style={{
                   backgroundColor: "#4f46e5",
@@ -206,7 +206,7 @@ export default function Layout() {
                 }}
               />
               <span className="font-medium text-white hidden sm:block">
-                {usuario?.nombre ?? "Paulino Zelaya"}
+                {usuario?.nombrePersona ?? "Nombre Desconocido"}
               </span>
             </div>
             <Menu

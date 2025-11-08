@@ -17,24 +17,32 @@ public class DashboardController : ControllerBase
     public IActionResult GetFullDashboard()
     {
         // === Resumen ===
+        var hoy = DateTime.Now.Date;
+        var mañana = hoy.AddDays(1);
+
         var resumen = new
         {
             Usuarios = _context.Usuarios.Count(u => u.EstaActivo == true),
             Clientes = _context.Clientes.Count(c => c.EstaActivo == true),
             Productos = _context.Productos.Count(p => p.EstaActivo == true),
-            VentasHoy = _context.Venta.Count(v => v.FechaCreacion.HasValue && v.FechaCreacion.Value.Date == DateTime.UtcNow.Date)
+            VentasHoy = _context.Venta.Count(v => v.FechaCreacion.HasValue &&
+                                                  v.FechaCreacion.Value >= hoy &&
+                                                  v.FechaCreacion.Value < mañana
+                                                  && v.EstaActivo == true)
         };
+
 
         // === Ventas mensuales ===
         var ventas = _context.Venta
-                     .Where(v => v.FechaCreacion.HasValue && v.FechaCreacion.Value.Year == DateTime.UtcNow.Year)
-                     .GroupBy(v => v.FechaCreacion.Value.Month)
-                     .Select(g => new
-                     {
-                         Mes = g.Key,
-                         Total = g.Sum(v => v.Total)
-                     })
-                     .ToList();
+                        .Where(v => v.FechaCreacion.HasValue && v.FechaCreacion.Value.Year == DateTime.Now.Year)
+                        .GroupBy(v => v.FechaCreacion.Value.Month)
+                        .Select(g => new
+                        {
+                            Mes = g.Key,
+                            Total = g.Sum(v => v.Total)
+                        })
+                        .ToList();
+
 
 
         var ventasMensuales = Enumerable.Range(1, 12)

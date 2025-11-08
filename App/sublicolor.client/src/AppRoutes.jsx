@@ -15,6 +15,8 @@ import GestionCategoria from "./pages/GestionCategoria";
 import GestionValor from "./pages/GestionValor";
 import GestionRoles from "./pages/GestionRoles";
 import GestionRolMenu from "./pages/GestionRolMenu";
+import GestionProveedores from "./pages/GestionProveedores";
+import GestionCompras from "./pages/GestionCompras";
 
 export default function AppRoutes() {
   return (
@@ -39,8 +41,11 @@ export default function AppRoutes() {
             <Route path="Menu_Valor" element={<GestionValor/>}/> 
             <Route path="Menu_Rol" element={<GestionRoles/>}/>
             <Route path="Menu_RolMenu" element={<GestionRolMenu/>}/>
-            {/* <Route path="MENU_ROLES" element={<Roles />} /> */}
             <Route path="Menu_GestionProducto" element={<GestionProductos />} />
+            <Route path="Menu_GestionProveedor" element={<GestionProveedores />} />
+            <Route path="Menu_GestionCompra" element={<GestionCompras />} />
+            {/* <Route path="MENU_ROLES" element={<Roles />} /> */}
+            
             <Route path="Menu_GestionVenta" element={<GestionVentas />} />
             <Route path="Menu_GestionReporte" element={<Reportes />} />
             

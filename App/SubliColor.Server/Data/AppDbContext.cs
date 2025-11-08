@@ -80,9 +80,26 @@ public partial class AppDbContext : DbContext
 
     public virtual DbSet<Venta> Venta { get; set; }
 
+    //    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+    //        => optionsBuilder.UseSqlServer(
+    //    "Server=SQL1003.site4now.net;Database=db_ac0721_sublicolorbd;User Id=db_ac0721_sublicolorbd_admin;Password=Isela170599@;TrustServerCertificate=True;"
+    //);
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=PAULINOZELAYA\\SQLEXPRESS01;Database=SubliColorBD2;Trusted_Connection=True;TrustServerCertificate=True;");
+    {
+        if (!optionsBuilder.IsConfigured)
+        {
+            var configuration = new ConfigurationBuilder()
+                .SetBasePath(AppContext.BaseDirectory)
+                .AddJsonFile("appsettings.json", optional: false)
+                .Build();
+
+            var connectionString = configuration.GetConnectionString("DefaultConnection");
+            optionsBuilder.UseSqlServer(connectionString);
+        }
+    }
+
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -492,6 +509,17 @@ public partial class AppDbContext : DbContext
             entity.Property(e => e.IdUsuarioCreacion).HasDefaultValue(1);
             entity.Property(e => e.Nombre).HasMaxLength(1000);
             entity.Property(e => e.PrecioVenta).HasColumnType("money");
+
+            // 🔥 ESTA ES LA LÍNEA CLAVE
+            entity.HasOne(d => d.CategoriaNavigation)
+                .WithMany(p => p.Productos)
+                .HasForeignKey(d => d.IdCategoria)
+                .HasConstraintName("FK_IdCategoria_Producto");
+
+            entity.HasOne(d => d.IdCategoriaNavigation).WithMany(p => p.Productos)
+                .HasForeignKey(d => d.IdCategoria)
+                .HasConstraintName("FK_IdCategoria_Valor");
+
         });
 
         modelBuilder.Entity<ProductoExistencia>(entity =>

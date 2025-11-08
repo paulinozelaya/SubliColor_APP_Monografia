@@ -1,0 +1,2174 @@
+{
+  "Version": 1,
+  "Hash": "W/VQ7Q6ZSkkNAQ5rLRIftHdAoDJ4JVfnKotOcO1ywKM=",
+  "Source": "SubliColor.Server",
+  "BasePath": "_content/SubliColor.Server",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\sublicolor.client.esproj",
+      "Version": 2,
+      "Source": "sublicolor.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Release;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Release;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\auto-Cj0TocxD.js",
+      "SourceId": "sublicolor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\",
+      "BasePath": "/",
+      "RelativePath": "assets/auto-Cj0TocxD.js",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6vqqlpd4hr",
+      "Integrity": "fuz+eGWe0FLStlR8mSDr2Dtn9vD2UDzhB8csRBRrV4M=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\auto-Cj0TocxD.js"
+    },
+    {
+      "Identity": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\index-DG-fuepz.css",
+      "SourceId": "sublicolor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\",
+      "BasePath": "/",
+      "RelativePath": "assets/index-DG-fuepz.css",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g34u0arlyd",
+      "Integrity": "PMjnvhb5tr4MdH+fnCglww/FT4OxQylIsnr5hQ7biMo=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\index-DG-fuepz.css"
+    },
+    {
+      "Identity": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\index-DnCCIyUE.js",
+      "SourceId": "sublicolor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\",
+      "BasePath": "/",
+      "RelativePath": "assets/index-DnCCIyUE.js",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "520dg3ngpb",
+      "Integrity": "c1JpVYWALbaxcJwTUILsZ19pxMAd7psAPqBkMmh2Q5o=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\index-DnCCIyUE.js"
+    },
+    {
+      "Identity": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\InterVariable-CWi-zmRD.woff2",
+      "SourceId": "sublicolor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\",
+      "BasePath": "/",
+      "RelativePath": "assets/InterVariable-CWi-zmRD.woff2",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ylaf504nru",
+      "Integrity": "ive9W1RVZ63/s9/Otb7bNTpSLXvxs6K4r3tgZBVrq8A=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\InterVariable-CWi-zmRD.woff2"
+    },
+    {
+      "Identity": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\InterVariable-Italic-d6KXgdvN.woff2",
+      "SourceId": "sublicolor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\",
+      "BasePath": "/",
+      "RelativePath": "assets/InterVariable-Italic-d6KXgdvN.woff2",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wtd8osjtbv",
+      "Integrity": "BHB5HxXv0ph721CyQCfD9YSiz5t7Y/v4YBLF8umrzAU=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\InterVariable-Italic-d6KXgdvN.woff2"
+    },
+    {
+      "Identity": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\primeicons-C6QP2o4f.woff2",
+      "SourceId": "sublicolor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\",
+      "BasePath": "/",
+      "RelativePath": "assets/primeicons-C6QP2o4f.woff2",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "alezyt4uu5",
+      "Integrity": "nupuC8uXTsVo/cse7BgtO1ODo6I4maaQFAssAWeIaII=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\primeicons-C6QP2o4f.woff2"
+    },
+    {
+      "Identity": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\primeicons-DMOk5skT.eot",
+      "SourceId": "sublicolor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\",
+      "BasePath": "/",
+      "RelativePath": "assets/primeicons-DMOk5skT.eot",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "495k0mxk9h",
+      "Integrity": "mH8j6t+nDGAydqccPJdcjQU02ccZ2Kbj2WUAXnuTdHs=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\primeicons-DMOk5skT.eot"
+    },
+    {
+      "Identity": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\primeicons-Dr5RGzOO.svg",
+      "SourceId": "sublicolor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\",
+      "BasePath": "/",
+      "RelativePath": "assets/primeicons-Dr5RGzOO.svg",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uz8dw73o84",
+      "Integrity": "NsVM7PypR6aRPJbfiEMAzhQQjE2MscskGWkyE0L4kMk=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\primeicons-Dr5RGzOO.svg"
+    },
+    {
+      "Identity": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\primeicons-MpK4pl85.ttf",
+      "SourceId": "sublicolor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\",
+      "BasePath": "/",
+      "RelativePath": "assets/primeicons-MpK4pl85.ttf",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8n6y04djzi",
+      "Integrity": "3Ilf7p884bDq8WtLn6sgB3/CmB5sCzMuTJfBdoMvwFs=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\primeicons-MpK4pl85.ttf"
+    },
+    {
+      "Identity": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\primeicons-WjwUDZjB.woff",
+      "SourceId": "sublicolor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\",
+      "BasePath": "/",
+      "RelativePath": "assets/primeicons-WjwUDZjB.woff",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1x5cpsgimi",
+      "Integrity": "9dHSGV4FuAhZU6p9ULLncHDNESDgEAqGAHcapboRoB4=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\primeicons-WjwUDZjB.woff"
+    },
+    {
+      "Identity": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\index.html",
+      "SourceId": "sublicolor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\",
+      "BasePath": "/",
+      "RelativePath": "index.html",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3xgsa38klh",
+      "Integrity": "WQWdcDEpDNGqm4Qr1q/GIc6PyyB3uxbTXEoLwxbjSiY=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\vite.svg",
+      "SourceId": "sublicolor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\",
+      "BasePath": "/",
+      "RelativePath": "vite.svg",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "69kjnsiwqx",
+      "Integrity": "SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\vite.svg"
+    },
+    {
+      "Identity": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\90xea2te3t-uz8dw73o84.br",
+      "SourceId": "sublicolor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "assets/primeicons-Dr5RGzOO.svg.br",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\primeicons-Dr5RGzOO.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "aypik8mlk7",
+      "Integrity": "Hlgmf7yIPBLvsOo8qxi/jkLy5ZNjwU6ALL2VQ57pZeM=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\primeicons-Dr5RGzOO.svg"
+    },
+    {
+      "Identity": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\90xea2te3t-uz8dw73o84.gz",
+      "SourceId": "sublicolor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "assets/primeicons-Dr5RGzOO.svg.gz",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\primeicons-Dr5RGzOO.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "cy4rjuudd0",
+      "Integrity": "1JzDehtZJPIZfytflLpeYIPOIbQwd511+mNjodXHo0Q=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\primeicons-Dr5RGzOO.svg"
+    },
+    {
+      "Identity": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\crbedwign4-69kjnsiwqx.br",
+      "SourceId": "sublicolor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "vite.svg.br",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\vite.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "mbs1zotvw1",
+      "Integrity": "ojgkTRs8O5BbJRvhn48R73h+4WBGEeBhXbrIrIbtbX0=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\vite.svg"
+    },
+    {
+      "Identity": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\crbedwign4-69kjnsiwqx.gz",
+      "SourceId": "sublicolor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "vite.svg.gz",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\vite.svg",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "xj979drvbl",
+      "Integrity": "42ZKYnnpG2O7vIztmMCZl7s7P7zEVzwp4uJimFruiSY=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\vite.svg"
+    },
+    {
+      "Identity": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\edt9bbbd6y-g34u0arlyd.br",
+      "SourceId": "sublicolor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "assets/index-DG-fuepz.css.br",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\index-DG-fuepz.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "i8yhb4y71o",
+      "Integrity": "bt35E/dd/kGW6xFEtFlV41GkpzC4y2RRVwaB6dbP1EM=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\index-DG-fuepz.css"
+    },
+    {
+      "Identity": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\edt9bbbd6y-g34u0arlyd.gz",
+      "SourceId": "sublicolor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "assets/index-DG-fuepz.css.gz",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\index-DG-fuepz.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "r8ky5ayij4",
+      "Integrity": "+8cG2cPPhUl+V8MSNbyL9i9UiAhyWfmnrROqDvk5WLk=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\index-DG-fuepz.css"
+    },
+    {
+      "Identity": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\sixyb2thvc-3xgsa38klh.br",
+      "SourceId": "sublicolor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "index.html.br",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "u32dayc0qo",
+      "Integrity": "FuJdlrl45sSWC05oAEuMKnPNKj9zOducwDsZi+AuiA0=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\sixyb2thvc-3xgsa38klh.gz",
+      "SourceId": "sublicolor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "index.html.gz",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "5p5uo00s5y",
+      "Integrity": "WZBIw9ACXgg2DuyAhy7MloFD5Gt06hKsfUU8d7qGvaw=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\x565r622em-520dg3ngpb.br",
+      "SourceId": "sublicolor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "assets/index-DnCCIyUE.js.br",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\index-DnCCIyUE.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "gr4vlowp6s",
+      "Integrity": "3P4rGUYVBBAa1KBNcbEL4001Z3f39wWftykKw40jEWo=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\index-DnCCIyUE.js"
+    },
+    {
+      "Identity": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\x565r622em-520dg3ngpb.gz",
+      "SourceId": "sublicolor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "assets/index-DnCCIyUE.js.gz",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\index-DnCCIyUE.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "cwb9kqmkk1",
+      "Integrity": "hL8zLF1IP/67J7XgYQJklGpu/qAn69Qg1s46jlyo4cY=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\index-DnCCIyUE.js"
+    },
+    {
+      "Identity": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\x6fcrp3w8a-6vqqlpd4hr.br",
+      "SourceId": "sublicolor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "assets/auto-Cj0TocxD.js.br",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\auto-Cj0TocxD.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "i7oi6oac37",
+      "Integrity": "DhF3doNggT5qk7opdgLPS7FekTCdTYdRlSFo6p4Mxz0=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\auto-Cj0TocxD.js"
+    },
+    {
+      "Identity": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\x6fcrp3w8a-6vqqlpd4hr.gz",
+      "SourceId": "sublicolor.client",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "assets/auto-Cj0TocxD.js.gz",
+      "AssetKind": "Publish",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\auto-Cj0TocxD.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "orz9ctgeku",
+      "Integrity": "rELcEeT5v9j0fqABDzuXP1tX2tbHoYSZbOttOA1OEGQ=",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\auto-Cj0TocxD.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "assets/auto-Cj0TocxD.js",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\auto-Cj0TocxD.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "207710"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fuz+eGWe0FLStlR8mSDr2Dtn9vD2UDzhB8csRBRrV4M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fuz+eGWe0FLStlR8mSDr2Dtn9vD2UDzhB8csRBRrV4M="
+        }
+      ]
+    },
+    {
+      "Route": "assets/auto-Cj0TocxD.js",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\x6fcrp3w8a-6vqqlpd4hr.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000016279221"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61427"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DhF3doNggT5qk7opdgLPS7FekTCdTYdRlSFo6p4Mxz0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"fuz+eGWe0FLStlR8mSDr2Dtn9vD2UDzhB8csRBRrV4M=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fuz+eGWe0FLStlR8mSDr2Dtn9vD2UDzhB8csRBRrV4M="
+        }
+      ]
+    },
+    {
+      "Route": "assets/auto-Cj0TocxD.js",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\x6fcrp3w8a-6vqqlpd4hr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000014098804"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70927"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rELcEeT5v9j0fqABDzuXP1tX2tbHoYSZbOttOA1OEGQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"fuz+eGWe0FLStlR8mSDr2Dtn9vD2UDzhB8csRBRrV4M=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fuz+eGWe0FLStlR8mSDr2Dtn9vD2UDzhB8csRBRrV4M="
+        }
+      ]
+    },
+    {
+      "Route": "assets/auto-Cj0TocxD.js.br",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\x6fcrp3w8a-6vqqlpd4hr.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61427"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DhF3doNggT5qk7opdgLPS7FekTCdTYdRlSFo6p4Mxz0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DhF3doNggT5qk7opdgLPS7FekTCdTYdRlSFo6p4Mxz0="
+        }
+      ]
+    },
+    {
+      "Route": "assets/auto-Cj0TocxD.js.gz",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\x6fcrp3w8a-6vqqlpd4hr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "70927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rELcEeT5v9j0fqABDzuXP1tX2tbHoYSZbOttOA1OEGQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rELcEeT5v9j0fqABDzuXP1tX2tbHoYSZbOttOA1OEGQ="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-DG-fuepz.css",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\index-DG-fuepz.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "570586"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PMjnvhb5tr4MdH+fnCglww/FT4OxQylIsnr5hQ7biMo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PMjnvhb5tr4MdH+fnCglww/FT4OxQylIsnr5hQ7biMo="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-DG-fuepz.css",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\edt9bbbd6y-g34u0arlyd.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000025154069"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39754"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bt35E/dd/kGW6xFEtFlV41GkpzC4y2RRVwaB6dbP1EM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"PMjnvhb5tr4MdH+fnCglww/FT4OxQylIsnr5hQ7biMo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PMjnvhb5tr4MdH+fnCglww/FT4OxQylIsnr5hQ7biMo="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-DG-fuepz.css",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\edt9bbbd6y-g34u0arlyd.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000016258841"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61504"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+8cG2cPPhUl+V8MSNbyL9i9UiAhyWfmnrROqDvk5WLk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"PMjnvhb5tr4MdH+fnCglww/FT4OxQylIsnr5hQ7biMo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PMjnvhb5tr4MdH+fnCglww/FT4OxQylIsnr5hQ7biMo="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-DG-fuepz.css.br",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\edt9bbbd6y-g34u0arlyd.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39754"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bt35E/dd/kGW6xFEtFlV41GkpzC4y2RRVwaB6dbP1EM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bt35E/dd/kGW6xFEtFlV41GkpzC4y2RRVwaB6dbP1EM="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-DG-fuepz.css.gz",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\edt9bbbd6y-g34u0arlyd.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61504"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+8cG2cPPhUl+V8MSNbyL9i9UiAhyWfmnrROqDvk5WLk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+8cG2cPPhUl+V8MSNbyL9i9UiAhyWfmnrROqDvk5WLk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-DnCCIyUE.js",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\index-DnCCIyUE.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1013417"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"c1JpVYWALbaxcJwTUILsZ19pxMAd7psAPqBkMmh2Q5o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c1JpVYWALbaxcJwTUILsZ19pxMAd7psAPqBkMmh2Q5o="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-DnCCIyUE.js",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\x565r622em-520dg3ngpb.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000004641901"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "215428"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3P4rGUYVBBAa1KBNcbEL4001Z3f39wWftykKw40jEWo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"c1JpVYWALbaxcJwTUILsZ19pxMAd7psAPqBkMmh2Q5o=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c1JpVYWALbaxcJwTUILsZ19pxMAd7psAPqBkMmh2Q5o="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-DnCCIyUE.js",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\x565r622em-520dg3ngpb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000003537732"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "282666"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hL8zLF1IP/67J7XgYQJklGpu/qAn69Qg1s46jlyo4cY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"c1JpVYWALbaxcJwTUILsZ19pxMAd7psAPqBkMmh2Q5o=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-c1JpVYWALbaxcJwTUILsZ19pxMAd7psAPqBkMmh2Q5o="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-DnCCIyUE.js.br",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\x565r622em-520dg3ngpb.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "215428"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3P4rGUYVBBAa1KBNcbEL4001Z3f39wWftykKw40jEWo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3P4rGUYVBBAa1KBNcbEL4001Z3f39wWftykKw40jEWo="
+        }
+      ]
+    },
+    {
+      "Route": "assets/index-DnCCIyUE.js.gz",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\x565r622em-520dg3ngpb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "282666"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hL8zLF1IP/67J7XgYQJklGpu/qAn69Qg1s46jlyo4cY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hL8zLF1IP/67J7XgYQJklGpu/qAn69Qg1s46jlyo4cY="
+        }
+      ]
+    },
+    {
+      "Route": "assets/InterVariable-CWi-zmRD.woff2",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\InterVariable-CWi-zmRD.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "345588"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ive9W1RVZ63/s9/Otb7bNTpSLXvxs6K4r3tgZBVrq8A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ive9W1RVZ63/s9/Otb7bNTpSLXvxs6K4r3tgZBVrq8A="
+        }
+      ]
+    },
+    {
+      "Route": "assets/InterVariable-Italic-d6KXgdvN.woff2",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\InterVariable-Italic-d6KXgdvN.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "380904"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BHB5HxXv0ph721CyQCfD9YSiz5t7Y/v4YBLF8umrzAU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BHB5HxXv0ph721CyQCfD9YSiz5t7Y/v4YBLF8umrzAU="
+        }
+      ]
+    },
+    {
+      "Route": "assets/primeicons-C6QP2o4f.woff2",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\primeicons-C6QP2o4f.woff2",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35148"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/woff2"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nupuC8uXTsVo/cse7BgtO1ODo6I4maaQFAssAWeIaII=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nupuC8uXTsVo/cse7BgtO1ODo6I4maaQFAssAWeIaII="
+        }
+      ]
+    },
+    {
+      "Route": "assets/primeicons-DMOk5skT.eot",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\primeicons-DMOk5skT.eot",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85156"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.ms-fontobject"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mH8j6t+nDGAydqccPJdcjQU02ccZ2Kbj2WUAXnuTdHs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mH8j6t+nDGAydqccPJdcjQU02ccZ2Kbj2WUAXnuTdHs="
+        }
+      ]
+    },
+    {
+      "Route": "assets/primeicons-Dr5RGzOO.svg",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\primeicons-Dr5RGzOO.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "342525"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NsVM7PypR6aRPJbfiEMAzhQQjE2MscskGWkyE0L4kMk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NsVM7PypR6aRPJbfiEMAzhQQjE2MscskGWkyE0L4kMk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/primeicons-Dr5RGzOO.svg",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\90xea2te3t-uz8dw73o84.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000011775234"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84923"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Hlgmf7yIPBLvsOo8qxi/jkLy5ZNjwU6ALL2VQ57pZeM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"NsVM7PypR6aRPJbfiEMAzhQQjE2MscskGWkyE0L4kMk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NsVM7PypR6aRPJbfiEMAzhQQjE2MscskGWkyE0L4kMk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/primeicons-Dr5RGzOO.svg",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\90xea2te3t-uz8dw73o84.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000009402561"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "106353"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1JzDehtZJPIZfytflLpeYIPOIbQwd511+mNjodXHo0Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"NsVM7PypR6aRPJbfiEMAzhQQjE2MscskGWkyE0L4kMk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NsVM7PypR6aRPJbfiEMAzhQQjE2MscskGWkyE0L4kMk="
+        }
+      ]
+    },
+    {
+      "Route": "assets/primeicons-Dr5RGzOO.svg.br",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\90xea2te3t-uz8dw73o84.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84923"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Hlgmf7yIPBLvsOo8qxi/jkLy5ZNjwU6ALL2VQ57pZeM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Hlgmf7yIPBLvsOo8qxi/jkLy5ZNjwU6ALL2VQ57pZeM="
+        }
+      ]
+    },
+    {
+      "Route": "assets/primeicons-Dr5RGzOO.svg.gz",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\90xea2te3t-uz8dw73o84.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "106353"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1JzDehtZJPIZfytflLpeYIPOIbQwd511+mNjodXHo0Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1JzDehtZJPIZfytflLpeYIPOIbQwd511+mNjodXHo0Q="
+        }
+      ]
+    },
+    {
+      "Route": "assets/primeicons-MpK4pl85.ttf",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\primeicons-MpK4pl85.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84980"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3Ilf7p884bDq8WtLn6sgB3/CmB5sCzMuTJfBdoMvwFs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3Ilf7p884bDq8WtLn6sgB3/CmB5sCzMuTJfBdoMvwFs="
+        }
+      ]
+    },
+    {
+      "Route": "assets/primeicons-WjwUDZjB.woff",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\assets\\primeicons-WjwUDZjB.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85056"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9dHSGV4FuAhZU6p9ULLncHDNESDgEAqGAHcapboRoB4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9dHSGV4FuAhZU6p9ULLncHDNESDgEAqGAHcapboRoB4="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "459"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WQWdcDEpDNGqm4Qr1q/GIc6PyyB3uxbTXEoLwxbjSiY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WQWdcDEpDNGqm4Qr1q/GIc6PyyB3uxbTXEoLwxbjSiY="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\sixyb2thvc-3xgsa38klh.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.005434782609"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "183"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FuJdlrl45sSWC05oAEuMKnPNKj9zOducwDsZi+AuiA0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"WQWdcDEpDNGqm4Qr1q/GIc6PyyB3uxbTXEoLwxbjSiY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WQWdcDEpDNGqm4Qr1q/GIc6PyyB3uxbTXEoLwxbjSiY="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\sixyb2thvc-3xgsa38klh.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003412969283"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "292"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WZBIw9ACXgg2DuyAhy7MloFD5Gt06hKsfUU8d7qGvaw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"WQWdcDEpDNGqm4Qr1q/GIc6PyyB3uxbTXEoLwxbjSiY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WQWdcDEpDNGqm4Qr1q/GIc6PyyB3uxbTXEoLwxbjSiY="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.br",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\sixyb2thvc-3xgsa38klh.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "183"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FuJdlrl45sSWC05oAEuMKnPNKj9zOducwDsZi+AuiA0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FuJdlrl45sSWC05oAEuMKnPNKj9zOducwDsZi+AuiA0="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\sixyb2thvc-3xgsa38klh.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "292"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WZBIw9ACXgg2DuyAhy7MloFD5Gt06hKsfUU8d7qGvaw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Nov 2025 05:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WZBIw9ACXgg2DuyAhy7MloFD5Gt06hKsfUU8d7qGvaw="
+        }
+      ]
+    },
+    {
+      "Route": "vite.svg",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\sublicolor.client\\dist\\vite.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1497"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 12 Sep 2025 19:34:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs="
+        }
+      ]
+    },
+    {
+      "Route": "vite.svg",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\crbedwign4-69kjnsiwqx.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.001485884101"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "672"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ojgkTRs8O5BbJRvhn48R73h+4WBGEeBhXbrIrIbtbX0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 12 Sep 2025 19:34:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs="
+        }
+      ]
+    },
+    {
+      "Route": "vite.svg",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\crbedwign4-69kjnsiwqx.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001295336788"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "771"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"42ZKYnnpG2O7vIztmMCZl7s7P7zEVzwp4uJimFruiSY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 12 Sep 2025 19:34:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SnSK/UQ5GLsWWRyDTEAdrjPoeGGrXbrQgRw6O0qSFPs="
+        }
+      ]
+    },
+    {
+      "Route": "vite.svg.br",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\crbedwign4-69kjnsiwqx.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "672"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ojgkTRs8O5BbJRvhn48R73h+4WBGEeBhXbrIrIbtbX0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 12 Sep 2025 19:34:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ojgkTRs8O5BbJRvhn48R73h+4WBGEeBhXbrIrIbtbX0="
+        }
+      ]
+    },
+    {
+      "Route": "vite.svg.gz",
+      "AssetFile": "C:\\Users\\pauli\\Downloads\\Llevarme\\SubliColor\\App\\SubliColor.Server\\obj\\Release\\net9.0\\compressed\\publish\\crbedwign4-69kjnsiwqx.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "771"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"42ZKYnnpG2O7vIztmMCZl7s7P7zEVzwp4uJimFruiSY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 12 Sep 2025 19:34:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-42ZKYnnpG2O7vIztmMCZl7s7P7zEVzwp4uJimFruiSY="
+        }
+      ]
+    }
+  ]
+}

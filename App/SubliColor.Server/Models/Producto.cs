@@ -44,4 +44,5 @@ public partial class Producto
     public virtual ICollection<ProductoMovimientoDetalle> ProductoMovimientoDetalles { get; set; } = new List<ProductoMovimientoDetalle>();
 
     public virtual Categoria? CategoriaNavigation { get; set; }
+    public virtual Valor? IdCategoriaNavigation { get; set; }
 }

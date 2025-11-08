@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SubliColor.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb518a89a8b7bb6e76f3382cbb55851f4e0df5a9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b58b37b5a72cfcde1e2fb34c68b3ac4c9001564a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SubliColor.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SubliColor.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

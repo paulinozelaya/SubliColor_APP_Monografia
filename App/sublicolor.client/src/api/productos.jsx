@@ -7,6 +7,11 @@ const getAll = async () => {
   return res.data;
 };
 
+const getActivosConStock = async () => {
+  const res = await axios.get(`${API_URL}/ActivosConStock`);
+  return res.data;
+};
+
 const getById = async (id) => {
   const res = await axios.get(`${API_URL}/${id}`);
   return res.data;
@@ -25,4 +30,4 @@ const remove = async (id) => {
   await axios.delete(`${API_URL}/${id}`);
 };
 
-export default { getAll, getById, create, update, remove };
+export default { getAll, getById, create, update, remove,getActivosConStock };
